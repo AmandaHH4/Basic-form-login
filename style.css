@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open sans";
+    color: #423f3f;
+}
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("./treenature.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient (rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000000;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #424141;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    background-color: #443c2b;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: 7;
+    transition: opacity .3s ease;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #eee7e7;
+    opacity: .6;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
+}
